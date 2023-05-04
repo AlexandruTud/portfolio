@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7248617446773523"
+     crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.scss">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div id="custom-modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p id="modal-message"></p>
+        </div>
+      </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+                <a href="index.html" class="logo navbar-brand"><i></i>_portfolio</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-light" id="navmenu">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">home</a>
+                        </li>
+                        <li class="nav-item" >
+                            <a href="#services" class="nav-link">projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="CV.pdf" class="nav-link">cv</a>
+                        </li>
+                        <li class="nav-item">
+                            <span class="nav-link px-4">|</span>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.instagram.com/alexandru.all/" class="nav-link px-2"><i class="bi bi-instagram"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://www.linkedin.com/in/alexandru-tudor-a732a1250/" class="nav-link px-2"><i class="bi bi-linkedin"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://github.com/AlexandruTud" class="nav-link px-2"><i class="bi bi-github"></i></a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+    </nav>
+
+    <section class="home-section bg-image text-light p-5 p-lg-0 pt-lg-5 text-center text-start" id="home">
+        <div class="container">
+          <div class="homediv align-items-center justify-content-center">
+            <div class="container">
+              <h1>Hello, I'm</h1>
+              <div class="animation">
+                <div class="first">Alexandru Tudor</div>
+                <div class="second">Software Engineer</div>
+                <div class="third">Ready to learn</div>
+              </div>       
+            </div>
+          </div>
+        </div>
+    </section>
+      
+
+    <section class="projects-section text-light text-center p-5" id="services">
+        <div class="container">
+            <h1 class="gradient-h pb-4"><br>personalProjects</h1>
+            <div class="row text-center g-4 p-4 py-sm-3">
+
+                <div class="col-md">
+                    <div class="card" id="project1">
+                        <div class="card-body text-center">
+                            <div class="img mb-3">
+                                <img class="card-img-top" src="img1.png" alt="Card image cap">
+                            </div>
+                            <h3 class="card-title mb-3">
+                                School Meditation App
+                            </h3>
+                            <button onclick="window.location.href='https://github.com/AlexandruTud/School-Meditation-App-JavaAWT';" class="btn btn-lg px-5 text-center text-light">View code</button>
+                            <button onclick="addProjectToLocalStorage('project1')" class="btn btn-lg px-3 text-center text-light">&hearts;</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md">
+                    <div class="card" id="project2">
+                        <div class="card-body text-center">
+                            <div class="img mb-3">
+                                <img class="card-img-top" src="img2.png" alt="Card image cap">
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Login GUI App
+                            </h3>
+                            <button onclick="window.location.href='https://github.com/AlexandruTud/Login-Application-JavaFX';" class="btn btn-lg px-5 text-center text-light">View code</button>
+                            <button onclick="addProjectToLocalStorage('project2')" class="btn btn-lg px-3 text-center text-light">&hearts;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card" id="project3">
+                        <div class="card-body text-center">
+                            <div class="img mb-3">
+                                <img class="card-img-top" src="img3.png" alt="Card image cap">
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Currency Converter App
+                            </h3>
+                            <button onclick="window.location.href='https://github.com/AlexandruTud/Currency-Converter-JavaFX';" class="btn btn-lg px-5 text-center text-light">View code</button>
+                            <button onclick="addProjectToLocalStorage('project3')" class="btn btn-lg px-3 text-center text-light" >&hearts;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center g-4 p-4 py-sm-3">
+                <div class="col-md">
+                    <div class="card" id="project4">
+                        <div class="card-body text-center">
+                            <div class="img mb-3">
+                                <img class="card-img-top" src="2.png" alt="Card image cap">
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Personal Portfolio Website
+                            </h3>
+                            <button onclick="window.location.href='https://github.com/AlexandruTud/AlexandruTud.github.io';" class="btn btn-lg px-5 text-center text-light">View code</button>
+                            <button onclick="addProjectToLocalStorage('project4')" class="btn btn-lg px-3 text-center text-light">&hearts;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card" id="project5">
+                        <div class="card-body text-center">
+                            <div class="img mb-3">
+                                <img class="card-img-top" src="1.png" alt="Card image cap">
+                            </div>
+                            <h3 class="card-title mb-3">
+                                Honey Shop Website
+                            </h3>
+                            <button onclick="window.location.href='https://github.com/AlexandruTud/linguritademiere.store';" class="btn btn-lg px-5 text-center text-light">View code</button>
+                            <button onclick="addProjectToLocalStorage('project5')" class="btn btn-lg px-3 text-center text-light">&hearts;</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <div class="img mb-3">
+                                <img class="card-img-top" src="img6.png" alt="Card image cap">
+                            </div>
+                            <h3 class="card-title mb-3">
+                                All my projects here
+                            </h3>
+                            <button onclick="handleClick()" class="btn btn-lg px-5 text-center text-light" name="count" id="viewAll">View all projects</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7248617446773523"
+     crossorigin="anonymous"></script>
+        <!-- HorizontalAds -->
+        <ins class="adsbygoogle"
+            style="display:block"
+            data-ad-client="ca-pub-7248617446773523"
+            data-ad-slot="1004103013"
+            data-ad-format="auto"
+            data-full-width-responsive="true"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+
+        </div>
+        
+    </section>
+
+    <section class="about-section bg-light text-center p-5" id="about">
+        <div class="container p-5">
+            <h1 class="abouth pt-5 pr-5 pl-5 ">aboutMe</h1>
+            <h6 class="abouth6 p-3" id="myname">My name is Tudor Vladut-Alexandru. I entered the IT field out of curiosity, to develop myself online and to learn new things about the technology we use every day. I have been passionate about computers since I was little and I use them every day. This field fascinates me, how we can write lines of code and the computer executes the command.</h6>
+        </div>
+
+        <div id="carousel" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="card1">
+                    <div class="card-body text-center">
+                        <h3 class="card-titlee mb-3 pb-5">Ready to learn new things everyday</h3>
+                        <p class="text-lightready" id="texttt">I am ready to learn new things every day! I am a curious person, especially in the fields I like and I try to learn something new every day. I believe that the brain must be trained to reach its maximum capacity!</p>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <p id="skillstitle">skills</p>
+        <div id="skills"></div>
+        <p id="educationtitle">education</p>
+        <div id="education"></div>
+        <p id="awardstitle">awards</p>
+        <div id="awards"></div>
+        <p id="meetingstitle">meetings</p>
+        <div id="meetingList"></div>
+
+
+    </section>
+
+    <section class="contact text-light p-5 mb-4" id="contact">
+
+        <h2 class="font-weight-bold text-center p-5 my-4">contactMe</h2>
+
+        
+
+        <div class="col-md-12 ">
+            
+
+            <div class="col-md-12 ">
+                <form id="contact-form" name="contact-form" action="mailto:alexandrukeryx@gmail.com" method="post" enctype="text/plain">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form">
+                                <input type="text" id="name" name="name" class="textarea form-control " placeholder="Name" maxlength="30" required>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="email" id="email" name="email" class="textarea form-control" placeholder="Email" maxlength="30" required>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form mb-0">
+                                <input type="text" id="subject" name="subject" class="textarea form-control" placeholder="Subject" maxlength="40" required>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="md-form ">
+                                <textarea id="message" name="message" rows="2" class="textarea form-control md-textarea" placeholder="Message" maxlength="300" required></textarea>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="text-center text-md-left">
+                    
+                        <input class="contactButton" type="submit" value="Send Mail">
+                        <input class="contactButton" type="reset" value="Reset">
+
+                    </div>
+                
+                </form>
+                
+                <div id="error-container"></div>
+                
+            </div>
+     
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <div class="container-fluid" id="map">
+            <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed/v1/place?q=Constanta%2C%20Romania&key=AIzaSyBs4sjC6t8EbiwqNJPOT_cPh1H10I6QCwI" allowfullscreen></iframe>
+            </div>
+        </div>
+        <h2 class="font-weight-bold text-center p-5 my-4">myMails</h2>
+        <form id="contact-form2" name="contact-form">
+
+            <div class="row">
+          
+              <div class="col-md-6 mb-3">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                  </div>
+                  <div class="form-control" id="email1">vladut.tudor@365.univ-ovidius.ro</div>
+                  <div class="input-group-append">
+                    <a href="mailto:vladut.tudor@365.univ-ovidius.ro" class="button" id="mailMe">mailMe</a>
+                  </div>
+                </div>
+              </div>
+          
+              <div class="col-md-6 mb-3">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text"><i class="bi bi-envelope"></i></span>
+                  </div>
+                  <div class="form-control" id="email2">alexandrukeryx@gmail.com</div>
+                  <div class="input-group-append">
+                    <a href="mailto:vladut.tudor@365.univ-ovidius.ro" class="button" id="mailMe2">mailMe</a>
+                  </div>
+                </div>
+              </div>
+          
+            </div>
+          
+          </form>
+          
+          
+        <footer>
+            <div class="container">
+              <div class="left" id="footer">© 2023 Alexandru Tudor. All rights reserved.</div>
+            </div>
+        </footer>
+        <div id="cookie-banner" class="cookie-banner">
+            <p>I use cookies for personal research ,educational purposes and to enhance your experience on my website. By continuing to use my website, you consent to my use of cookies. <a href="https://en.wikipedia.org/wiki/HTTP_cookie">Learn more</a></p>
+            <button id="accept-cookies" class="accept-cookies">Accept</button>
+            <button id="reject-cookies" class="reject-cookies">Reject</button>
+          </div>
+          
+    </section>
+    <script src="script.js"></script>
+    
+</body>
+</html>

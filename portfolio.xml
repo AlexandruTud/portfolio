@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meetings>
+  <meeting>
+    <name>Constanta Developers May Meetup</name>
+    <date>24 may 2022</date>
+  </meeting>
+
+  <meeting>
+    <name>Constanta Developers Autumn Meetup</name>
+    <date>1 november 2022</date>
+  </meeting>
+
+  <meeting>
+    <name>Constanta WordPress Meetup</name>
+    <date>23 november 2022</date>
+  </meeting>
+
+  <meeting>
+    <name>Constanta Developers Meetup - The first in 2023</name>
+    <date>28 february 2023</date>
+  </meeting>
+
+  <meeting>
+    <name>Google Workshop Presentation</name>
+    <date>27 march 2023</date>
+  </meeting>
+</meetings>

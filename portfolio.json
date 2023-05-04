@@ -1,0 +1,38 @@
+{
+      "skills": [
+        "JavaScript",
+        "Java",
+        "C",
+        "HTML",
+        "CSS",
+        "JSON",
+        "Python",
+        "XML",
+        "Mathematica",
+        "Assembly",
+        "C++"
+      ],
+    
+    "education": [
+      {
+        "degree": "Bachelor's degree in Computer Science",
+        "school": "Ovidius University Constanta",
+        "years": "2021-2024"
+      },
+      {
+        "degree": "High school diploma in Mathematics-Informatics",
+        "school": "National College \"Mircea cel Batran\" Constanta",
+        "years": "2017-2021"
+      }
+    ],
+
+    "awards_and_certifications": [
+      {
+        "title": "Microsoft Certified: Azure Fundamentals",
+        "organization": "Microsoft",
+        "year": "2022"
+      }
+    ]
+    
+  }
+  

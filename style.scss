@@ -1,0 +1,95 @@
+$black-color: rgb(12, 11, 11);
+
+body {
+    font-family: 'Andada Pro', serif;
+    background-color: $black-color;
+}
+
+.navbar {
+    background-color: rgb(19, 18, 18);
+}
+
+.home-section {
+    background: url('eu.png') no-repeat center center fixed; 
+    background-size: cover;
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+
+}
+
+.homediv {
+    padding: 21em 0;
+}
+
+.projects-section {
+    background-color: $black-color;
+}
+
+.card {
+    background-color: lighten($black-color, 5%);
+    transition: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.btn {
+    background-color: lighten($black-color, 10%);
+    transition: 0.5s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.aboutdiv {
+    padding: 15em 0;
+}
+
+.abouth {
+    letter-spacing: 10px;
+}
+
+.carousel {
+    background-color: $black-color;
+}
+
+.contact {
+    background-color: $black-color;
+}
+
+.textarea {
+    background-color: $black-color;
+    color: white;
+}
+
+input[type=text]:focus {
+    background: $black-color;
+    color: white;
+}
+
+textarea[type=text]:focus {
+    background: $black-color;
+    color: white;
+}
+
+.card1 {
+    background-color: $black-color;
+    padding: 3em;
+}
+
+.map-container{
+    overflow:hidden;
+    padding-bottom:56%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
